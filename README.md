@@ -1,9 +1,9 @@
 # smartsoccer
-Projeto para predição de resultado de partidas de futebol
+Project for predicting the outcome of soccer matches 
 
 # Para utilizar:
--Importar o arquivo jupyter(recomendo google colab)
--Utilizar os datasets que estão no repositório para treinar os algoritmos
+-Import the jupyter file(I recommend google colab)
+-Use the datasets that are in the repository to train the algorithms 
 
 
 # Exemplo de uso:
