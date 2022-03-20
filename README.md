@@ -1,29 +1,29 @@
 # smartsoccer
-Project for predicting the outcome of soccer matches 
+Project for predicting the outcome of soccer matches
 
-# Para utilizar:
+# To use:
 -Import the jupyter file(I recommend google colab)
--Use the datasets that are in the repository to train the algorithms 
+-Use the datasets that are in the repository to train the algorithms
 
 
-# Exemplo de uso:
-modelo = modeloGaussianNB
+# Example of use:
+model = modelGaussianNB
 
 timeHome='Girona'
 timeAway='Barcelona'
 
-chutesAGolHome=5
-chutesAGolAway=10
+kicksAGolHome=5
+kicksAGolAway=10
 
-golsHome=0
-golsAway=0
+goalsHome=0
+goalsAway=0
 
-jogoAtual = [[golsHome,\
-              golsAway,\
-              chutesAGolHome,\
-              chutesAGolAway,\
-              GetGrandezaCluster(timeHome),\
-              GetGrandezaCluster(timeAway)]]
-previsoes = modelo.predict(jogoAtual)
+CurrentGame = [[golsHome,\
+               goalsAway,\
+               kicksAGolHome,\
+               kicksAGolAway,\
+               GetGrandezaCluster(timeHome),\
+               GetGrandezaCluster(timeAway)]]
+predictions = model.predict(currentgame)
 
-Result = 'DRAW'
+Result = 'DRAW' 
